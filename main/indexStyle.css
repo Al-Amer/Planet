@@ -1,3 +1,13 @@
+body{
+    margin: 5px;
+}
 header{
     background-color: aquamarine;
+    /* float: right; */
+}
+footer{
+
+    /* padding-left: 25%; */
+    /* background-color: aqua; */
+    /* width: 100%; */
 }
