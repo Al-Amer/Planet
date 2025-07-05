@@ -3,14 +3,6 @@ body{
     background-color:navajowhite;
     padding: 10px;
 }
-header{
-    h1{
-        text-align: center; 
-        padding-top: 50px;
-        padding-bottom: 50px;
-           /* style="text-align: center; padding-top: 30px; "              */
-    }
-}
 .row{
     display: flex;
     flex-direction: row;
@@ -30,28 +22,23 @@ header{
 .column{
     display: flex;
     flex-direction: column;
+    align-items: center;
+        padding-left: 80px;
 }
 
-.mainImg{
-    width: 200px;
-    height: 200px;
+img{ 
+    width: 300px;
+    height: 300px;
     display: block;
     border-radius: 10%;
     border: 2px green solid;
     padding: 2px;
     margin: 2px;
-    opacity: 0.5;
-    transform: rotateZ(180deg);
+    /* opacity: 0.5; */
+    /* transform: rotateZ(180deg); */
 
 }
-.mainImg:hover{
-    width: 400px;
-    height: 400px;
-    opacity: 1;
-    /* transform: rotateY(150deg); */
-    /* transform: rotateX(150deg); */
-    transform: rotateZ(0deg);
-}
+
 
 
 @media screen and (max-width: 600px) {
