@@ -1,0 +1,23 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    background-color: papayawhip;
+    color: rgb(165, 99, 42);
+    overflow-x: hidden;}
+
+.History {color: rgb(32, 76, 77);}
+
+.Top {
+  color: rgb(32, 76, 77);  
+  text-align: center;
+  border: 1px solid green;
+}
+
+.Sale {
+    text-align: center;
+    color: rgb(32, 76, 77);
+}
+
